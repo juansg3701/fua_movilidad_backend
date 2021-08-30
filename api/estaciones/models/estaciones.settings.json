@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estaciones",
+  "info": {
+    "name": "Estaciones"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "text"
+    },
+    "Abreviacion": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equipos",
+  "info": {
+    "name": "Equipos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "jornada": {
+      "via": "equipos",
+      "model": "jornada"
+    }
+  }
+}

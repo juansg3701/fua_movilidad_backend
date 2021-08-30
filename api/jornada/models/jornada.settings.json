@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jornadas",
+  "info": {
+    "name": "Jornada",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "valor": {
+      "type": "integer"
+    },
+    "equipos": {
+      "collection": "equipos",
+      "via": "jornada"
+    }
+  }
+}

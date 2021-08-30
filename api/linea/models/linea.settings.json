@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lineas",
+  "info": {
+    "name": "Linea"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Abreviacion": {
+      "type": "string"
+    },
+    "Nombre": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jornadas",
+      "handler": "jornada.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jornadas/count",
+      "handler": "jornada.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jornadas/:id",
+      "handler": "jornada.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jornadas",
+      "handler": "jornada.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jornadas/:id",
+      "handler": "jornada.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jornadas/:id",
+      "handler": "jornada.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
